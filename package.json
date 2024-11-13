@@ -1,12 +1,13 @@
 {
   "name": "haki",
-  "displayName": "AI Powered Docs Generator",
-  "description": "project",
-  "version": "1.0.0",
-  "publisher": "iamAyushChamoli",
+  "displayName": "Haki Docs",
+  "description": "AI powered Doxygen documentation generator",
+  "version": "1.0.1",
+  "publisher": "ayushchamoli",
   "engines": {
     "vscode": "^1.55.0"
   },
+  "logo": "images/icon.png",
   "activationEvents": [
     "onLanguage:cuda",
     "onLanguage:cuda-cpp",
@@ -244,7 +245,8 @@
     "env-var": "^4.1.0",
     "moment": "^2.29.4",
     "opn": "^5.2.0",
-    "simple-git": "^3.5.0"
+    "simple-git": "^3.5.0",
+    "vsce": "^2.15.0"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "0.1.3",
