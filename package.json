@@ -7,7 +7,7 @@
   "engines": {
     "vscode": "^1.55.0"
   },
-  "logo": "src/images/icon.png",
+  "logo": "images/icon.png",
   "activationEvents": [
     "onLanguage:cuda",
     "onLanguage:cuda-cpp",
